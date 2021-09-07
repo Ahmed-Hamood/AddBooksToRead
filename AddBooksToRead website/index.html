@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" />
+    <title>JavaScript DOM Tutorials</title>
+  </head>
+  <body>
+  	<div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+				
+	    		<h1 class="title">ReadMeLater</h1>
+          <p>Save Your Books For Later</p>
+          <form id="search-books">
+            <input class="Mytext" type="text" placeholder="Search books..." />
+          </form>
+	    	</div>
+	    </header>
+	    <div id="book-list">
+	    	<h2 class="title">Books to Read</h2>
+	    	<ul>
+	    		<li>
+	    			<span class="name">Name of the Wind</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">The Wise Man's Fear</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Kafka on the Shore</span>
+	    			<span class="delete">delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">The Master and the Margarita</span>
+	    			<span class="delete">delete</span> 
+	    		</li>
+	    	</ul>
+	    </div>
+	    <form id="add-book">
+				
+					<label class="container">Hide All Books
+							<input type="checkbox" id="hidechk" checked="checked">
+							<span class="checkmark"></span>
+						</label>
+				
+
+	    	<input id="txt" type="text"placeholder="Add a book..." />
+	    	<button class="button" id="add" >Add</button>
+	    </form>
+			 
+			
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
